@@ -1,20 +1,27 @@
+html {font-size:62.5%;}
+
+div a img {
+  position:fixed;
+  bottom:0%;
+}
+
 pre,code,kbd,samp,var,output {
-  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
-  font-size: 16.2px;
+  font-family: "Hack","Fira Code Retina","Consolas","Courier New",monospace;
+  font-size: 1.4em;
 }
 
 pre {
-  border-left: 1.8px solid #96bbe2;
-  line-height: 25.2px;
-  margin-top: 29.7px;
+  border-left: 1.2px solid #b2b4b7;
+  line-height: 2;
+  margin-top: 2.2em;
   overflow: auto;
-  padding-left: 18px;
+  padding-left: 1.8em;
 }
 
 pre code {
-  background: none;
+  background: #eee;
   border: 0;
-  line-height: 29.7px;
+  line-height: 2.2;
   padding: 0;
 }
 
@@ -23,54 +30,56 @@ code {
   border: 1.8px solid #ccc;
   border-radius: 3.6px;
   display: inline-block;
-  line-height: 18px;
+  line-height: 1.4;
   padding: 3px 6px 2px;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  color: #000;
-  margin-bottom: 18px;
+  color: #101010;
+  margin-bottom: 2em;
 }
 
 h1 {
-  font-size: 36px;
-  font-weight: 500;
-  margin-top: 36px;
+  font-size: 3.2em;
+  font-weight: 700;
+  margin-top: 3em;
 }
 
 h2 {
-  font-size: 25.2px;
-  font-weight: 400;
-  margin-top: 27px;
+  font-size: 2.8em;
+  font-weight: 700;
+  margin-top: 2.8em;
 }
 
 h3 {
-  font-size: 21.6px;
-  margin-top: 21.6px;
+  font-size: 2.2em;
+  margin-top: 2.2em;
+  font-weight: 500;
 }
 
 h4 {
-  font-size: 18px;
-  margin-top: 18px;
+  font-size: 1.8em;
+  margin-top: 1.8em;
+  font-weight: 400;
 }
 
 h5 {
-  font-size: 14.4px;
-  font-weight: 700;
-  margin-top: 18px;
+  font-size: 1.4em;
+  font-weight: 400;
+  margin-top: 1.6em;
   text-transform: uppercase;
 }
 
 h6 {
   color: #ccc;
-  font-size: 14.4px;
-  font-weight: 700;
-  margin-top: 18px;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-top: 1.4em;
   text-transform: uppercase;
 }
 
 a {
-  color: #367ac3;
+  color: #2b619b;
   text-decoration: none;
 }
 
@@ -79,11 +88,11 @@ a:hover {
 }
 
 hr {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ddd;
 }
 
 small {
-  font-size: 15.3px;
+  font-size: 1.2em;
 }
 
 em,i {
@@ -99,12 +108,12 @@ strong,b {
   border-collapse: separate;
   border-spacing: 0;
   box-sizing: border-box;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 18px;
+  font-family: "Fantasque Sans Mono","Hasklig Extralight","Not Courier Sans","Inconsolata","Monaco",monospace;
+  font-size: 1.4em;
   font-stretch: normal;
   font-style: normal;
   font-weight: 300;
-  line-height: 29.7px;
+  line-height: 1.2;
   margin: 0;
   outline: 0;
   padding: 0;
@@ -120,33 +129,33 @@ html,body {
 body {
   background: #f5f5f5;
   color: #1a1a1a;
-  padding: 36px;
+  padding: 3em;
 }
 
 p,ul,ol,dl,blockquote,hr,pre,table,form,fieldset,figure,address {
-  margin-bottom: 29.7px;
+  margin-bottom: 2.4em;
 }
 
 section {
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%;
-  width: 900px;
+  max-width: 600px;
+  width: 70%;
 }
 
 article {
-  background: #fff;
-  border: 1.8px solid #d9d9d9;
+  background: #f6f6f6;
+  border: 1.2px solid #d9d9d9;
   border-radius: 7.2px;
-  padding: 43.2px;
+  padding: 4em;
 }
 
 header {
-  margin-bottom: 36px;
+  margin-bottom: 3em;
 }
 
 footer {
-  margin-top: 36px;
+  margin-top: 3em;
 }
 
 nav {
@@ -161,8 +170,8 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin-left: 9px;
-  margin-right: 9px;
+  margin-left: .8em;
+  margin-right: .8em;
 }
 
 nav ul li:first-child {
@@ -174,7 +183,7 @@ nav ul li:last-child {
 }
 
 ol,ul {
-  margin-left: 29.7px;
+  margin-left: 2.4em;
 }
 
 li ol,li ul {
@@ -183,13 +192,13 @@ li ol,li ul {
 
 @media (max-width: 767px) {
 body {
-  padding: 18px;
+  padding: 1.8em;
 }
 
 article {
   border-radius: 0;
-  margin: -18px;
-  padding: 18px;
+  margin: -1.8em;
+  padding: 1.8em;
 }
 
 textarea,input,select {
@@ -208,4 +217,3 @@ fieldset,x:-moz-any-link {
   display: table-cell;
 }
 }
-
