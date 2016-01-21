@@ -1,2 +1,2 @@
-<http://pharoah.js.org>
+<http://pharaoh.js.org>
 
